@@ -8,13 +8,13 @@ sal = float(input("Digite o seu salário: "))
 
 if sal <= 1900: 
     imposto_renda = 0
-else:
-    if sal <= 2800:
-        imposto_renda = sal * 0.15
-    else: 
-        imposto_renda = sal * 0.275
+elif sal <= 2800:
+    imposto_renda = sal * 0.15
+else: 
+    imposto_renda = sal * 0.275
 
 sal_liquido = sal - imposto_renda
 
-print("Imposto de Renda: ", imposto_renda)
-print("Salário Líquido: ", sal_liquido)
+# 2.f vai interpretar que são duas casas decimais. 
+print(f"Imposto de Renda: {imposto_renda:.2f}")
+print(f"Salário Líquido: {sal_liquido:.2f}")

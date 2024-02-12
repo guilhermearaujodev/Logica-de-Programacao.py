@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "Funcoes, Procedimentos, Vetores e Matrizes"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
